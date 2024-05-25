@@ -1,7 +1,10 @@
 """
 Programa Velocímetro
-Descrição: Este programa recebe a velocidadde que o usuário coloca em um numero inteiro de km/h e o tranforma com a sigla KM/h. caso a velocidade colocada pelo usuário ultrapasse os 80KM/h o programa avisa que o usuário esta multado e calcula o valor respeitando o critério de R$5 por KM/h excedido.Logo após exibe a multa e os km/h excedidos.
-Autor: Vitpr de Almeida Netto
+Descrição: Este programa recebe a velocidadde que o usuário coloca em um numero inteiro de km/h e o tranforma com a sigla KM/h. 
+caso a velocidade colocada pelo usuário ultrapasse os 80KM/h o programa avisa que o usuário esta multado e calcula o valor,
+respeitando o critério de R$5 por KM/h excedido.
+Logo após exibe a multa e os km/h excedidos.
+Autor: Vitor de Almeida Netto
 Data: 24/05/2024
 Versão: 0.0.1
 """
