@@ -1,0 +1,17 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE clientes( 
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+Nome VARCHAR(100) NOT NULL,
+CPF VARCHAR(11) NOT NULL,
+Email VARCHAR(20) NOT NULL,
+Fone VARCHAR(20),
+UF VARCHAR(20) NOT NULL 
+, bloqueado BOOLEAN);
+INSERT INTO clientes VALUES(1,'regis','56767865788','ru@email.com','1133444441','SP',1);
+INSERT INTO clientes VALUES(2,'Amanda','57645699967','amand@email.com','1234567890','RJ',1);
+INSERT INTO clientes VALUES(3,'Eduardo','23445667899','edu@email.com','1244567890','RS',0);
+INSERT INTO clientes VALUES(5,'carlos','12323444487','car@email.com','9876543210','SC',1);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('clientes',5);
+COMMIT;
